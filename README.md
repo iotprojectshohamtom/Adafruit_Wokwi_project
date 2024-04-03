@@ -11,7 +11,6 @@ Allows users to input text on the Adafruit Dashboard and displays it on an LCD s
 
 ## 3. File Upload and Display:
 Enables users to upload a file (picture or JSON) through the Adafruit Dashboard and displays it on the Wokwi simulator.
-Usage:
 
 
 # Dependencies:
