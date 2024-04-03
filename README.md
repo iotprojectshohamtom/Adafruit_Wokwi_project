@@ -6,8 +6,8 @@ This project demonstrates the control of an ESP32 microcontroller using Adafruit
 ## 1. LED Control with Switch:
 Demonstrates controlling an LED connected to the ESP32 via a switch on the Adafruit Dashboard.
 
-## 2. Text Input and Display on LCD:
-Allows users to input text on the Adafruit Dashboard and displays it on an LCD screen connected to the ESP32 in the Wokwi simulator.
+## 2. Text Input and Display on LCD / Text output display on Adafruit text box:
+Allows users to input text on the Adafruit Dashboard and displays it on an LCD screen connected to the ESP32 in the Wokwi simulator, allow user to output text and display it on Adafruit text box (in Dashboard)
 
 ## 3. File Upload and Display:
 Enables users to upload a file (picture or JSON) through the Adafruit Dashboard and displays it on the Wokwi simulator.
