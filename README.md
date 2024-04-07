@@ -20,5 +20,3 @@ Adafruit IO account for creating dashboards and sending data to ESP32.
 Wokwi simulator for simulating ESP32 and its peripherals.
 ESP32 development environment for compiling and uploading code to the microcontroller.
 
-# Acknowledgments:
-Special thanks to Adafruit, Wokwi, and the ESP32 community for their invaluable resources and support in developing this project.
