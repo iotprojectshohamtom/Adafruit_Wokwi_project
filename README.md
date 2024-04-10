@@ -7,13 +7,16 @@ This project demonstrates the control of an ESP32 microcontroller using Adafruit
 Demonstrates controlling an LED connected to the ESP32 via a switch on the Adafruit Dashboard.
 
 ## 2. Text Input and Display on LCD / Text output display on Adafruit text box:
-Allows users to input text on the Adafruit Dashboard and displays it on an LCD screen connected to the ESP32 in the Wokwi simulator, allow user to output text and display it on Adafruit text box (in Dashboard)
+Allows users to input text on the Adafruit Dashboard and displays it on an LCD screen connected to the ESP32 in the Wokwi simulator, allow user to output text and display it on Adafruit text box (in Dashboard).
 
 ## 3. File Upload and Display:
 Allows users to insert a url file containing (image or JSON) through the wokwi code and displays it in the simulator and displays it in adafruit.
 
 ## 4. Transmission of information from the ESP32 under artificial control
-transfer information to adafruit by our artificial control, we will create a button that, when clicked, will transfer information from a temperature gauge to adafruit , transfer information on demand and not in a stream
+transfer information to adafruit by our artificial control, we will create a button that, when clicked, will transfer information from a temperature gauge to adafruit , transfer information on demand and not in a stream.
+
+## 5.Using  API to get the time in a city or country
+We will use the Worldtime API when we enter the name of a city or country in Adafruit's text box and the system will print the exact time in the city or country.
 
 # Dependencies:
 Adafruit IO account for creating dashboards and sending data to ESP32.
