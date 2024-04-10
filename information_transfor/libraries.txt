@@ -1,0 +1,11 @@
+# Wokwi Library List
+# See https://docs.wokwi.com/guides/libraries
+
+Adafruit IO Arduino
+ArduinoHttpClient
+Adafruit MQTT Library
+Adafruit Unified Sensor
+PubSubClient
+DHTlib
+DHT22
+DHTNEW

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "author": "IOT project",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "board-esp32-devkit-c-v4", "id": "esp", "top": -9.6, "left": -158.36, "attrs": {} },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn1",
+      "top": 207.8,
+      "left": 57.6,
+      "attrs": { "color": "green" }
+    },
+    { "type": "wokwi-dht22", "id": "dht1", "top": -143.7, "left": 52.2, "attrs": {} },
+    {
+      "type": "wokwi-resistor",
+      "id": "r1",
+      "top": 234.65,
+      "left": -39.8,
+      "rotate": 180,
+      "attrs": { "value": "1000" }
+    }
+  ],
+  "connections": [
+    [ "esp:TX", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX", "$serialMonitor:TX", "", [] ],
+    [ "dht1:VCC", "esp:3V3", "red", [ "v9.6", "h-249.6", "v38.4" ] ],
+    [ "dht1:GND", "esp:GND.2", "black", [ "v48", "h-153.6" ] ],
+    [ "r1:2", "esp:GND.1", "black", [ "h-133.2", "v-96" ] ],
+    [ "btn1:1.l", "esp:3V3", "red", [ "h-67.2", "v-249.6", "h-144.15" ] ],
+    [ "btn1:2.l", "r1:1", "black", [ "v0.2", "h-105.6" ] ],
+    [ "btn1:2.r", "esp:33", "green", [ "v0.2", "h29", "v19.2", "h-345.6", "v-172.8" ] ],
+    [ "esp:15", "dht1:SDA", "green", [ "h28.8", "v-163.2", "h105.5" ] ]
+  ],
+  "dependencies": {}
+}
